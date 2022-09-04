@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 15px 50px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+body {
+  background-color: hsl(206, 33%, 96%);
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  letter-spacing: 0.25rem;
+  color: hsl(205, 78%, 60%);
+  font-size: 0.875rem;
+}
+
+.nav-links {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.nav-links li {
+  list-style: none;
+
+  letter-spacing: 0.25rem;
+  margin: 0px 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: hsl(205, 86%, 17%);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-links li a:hover {
+  color: hsl(205, 78%, 60%);
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h2 {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.25rem;
+  border-radius: 0.5rem;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  border-radius: 0.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.btn:hover {
+  background: #222;
+  color: white;
+}
+
+.color {
+  color: hsl(205, 78%, 60%);
+}
